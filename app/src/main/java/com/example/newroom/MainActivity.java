@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
 
-        Button btn = (Button)findViewById(R.id.button3);
+        Button btn = (Button)findViewById(R.id.buttonLogin);
         btn.setOnClickListener((view) -> {
             startActivity(new Intent(MainActivity.this,LoginActivity.class));
         });
@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
     }
 
     @Override
@@ -71,7 +72,12 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            startActivity(new Intent(MainActivity.this,SettingsActivity.class));
+        }
+
+        if (id == R.id.LogmeInSettings)
+        {
+            startActivity(new Intent(MainActivity.this,LoginActivity.class));
         }
 
         return super.onOptionsItemSelected(item);

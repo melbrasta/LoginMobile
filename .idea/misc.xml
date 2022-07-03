@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1390625" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/layout-w936dp/activity_login.xml" value="0.12158469945355191" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/layout/activity_loggedin.xml" value="0.22554347826086957" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/layout/activity_login.xml" value="0.45" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/layout/activity_main.xml" value="0.22644927536231885" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/layout/content_loggedin.xml" value="0.22554347826086957" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/layout/content_main.xml" value="0.22644927536231885" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/layout/settings_activity.xml" value="0.22644927536231885" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/menu/menu_loggedin.xml" value="0.3328125" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/menu/menu_main.xml" value="0.28854166666666664" />
+        <entry key="..\:/AndroidStudio/LoginMobile/app/src/main/res/xml/root_preferences.xml" value="0.2740036231884058" />
         <entry key="..\:/Users/yannickb/AndroidStudioProjects/newRoom/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/yannickb/AndroidStudioProjects/newRoom/app/src/main/res/layout/content_main.xml" value="0.33" />
         <entry key="..\:/Users/yannickb/AndroidStudioProjects/newRoom/app/src/main/res/layout/settings_activity.xml" value="0.17831813576494426" />

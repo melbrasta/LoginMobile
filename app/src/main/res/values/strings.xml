@@ -1,17 +1,37 @@
 <resources>
     <string name="app_name">newRoom</string>
     <string name="action_settings">Settings</string>
+    <string name="kat_Usersettings">User settings</string>
+    <string name ="kat_Serversettings">Server settings</string>
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+
+    <string name="LoginButton">LogMeIn</string>
+    <string name="LogoutButton">Logout</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
+
+    <!-- LoginActivity-->
+    <string name="Servername">Server ip</string>
+    <string name="Serverport">Server-Port</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+
+    <!-- SettingsActivity-->
+    <string name="DefaultUsername">Default Username</string>
+    <string name="DefaultColor">Preferred color</string>
+    <string name="DefaultServer">Default Server Ip</string>
+    <string name="DefaultServerPort">Default Server Port</string>
+
+
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>

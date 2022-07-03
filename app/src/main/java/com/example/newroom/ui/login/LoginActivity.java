@@ -26,6 +26,7 @@ import com.example.newroom.R;
 import com.example.newroom.ui.login.LoginViewModel;
 import com.example.newroom.ui.login.LoginViewModelFactory;
 import com.example.newroom.databinding.ActivityLoginBinding;
+import com.google.android.material.snackbar.Snackbar;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -125,9 +126,11 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void updateUiWithUser(LoggedInUserView model) {
-        String welcome = getString(R.string.welcome) + model.getDisplayName();
+        String welcome = getString(R.string.welcome) + R.id.username;
         // TODO : initiate successful logged in experience
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
+
+
     }
 
     private void showLoginFailed(@StringRes Integer errorString) {
