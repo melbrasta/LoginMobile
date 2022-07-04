@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.newroom.ui.login.LoginActivity;
+import com.example.newroom.ui.login.LoginFragment;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,7 +43,11 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn = (Button)findViewById(R.id.buttonLogin);
         btn.setOnClickListener((view) -> {
-            startActivity(new Intent(MainActivity.this,LoginActivity.class));
+            Intent loginIntent = new Intent (MainActivity.this, LoginActivity.class);  //new Intent = neues ÜbergangsObjekt von Startactivity zu Ziel Activity
+            loginIntent.putExtra("key","banane");
+
+            startActivity(loginIntent);
+
         });
 
 
@@ -77,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.LogmeInSettings)
         {
-            startActivity(new Intent(MainActivity.this,LoginActivity.class));
+            startActivity(new Intent(MainActivity.this, LoginFragment.class));
         }
 
         return super.onOptionsItemSelected(item);
